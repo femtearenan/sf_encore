@@ -1,3 +1,8 @@
+import $ from 'jquery';
+import Dropzone from 'dropzone';
+import 'dropzone/dist/dropzone.css'
+import Sortable from 'sortablejs';a
+
 Dropzone.autoDiscover = false;
 
 $(document).ready(function() {
